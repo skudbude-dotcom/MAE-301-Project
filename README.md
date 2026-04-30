@@ -9,9 +9,6 @@ Running the No-AI Baseline Version
 The no-AI baseline does not require an API key. 
 If the file is in the main project folder, run: 
 python3 pantrypal_noai.py
-
-If the file is inside the /mvp/src/ folder, run:
-python3 src/pantrypal_noai.py
 Then open a browser and go to:
 http://localhost:5000
 
