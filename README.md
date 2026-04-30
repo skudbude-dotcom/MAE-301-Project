@@ -1,8 +1,15 @@
 [PantryPal MVP Demo Instructions Overview]
 PantryPal is a web-based meal suggestion app. Users enter ingredients they already have, and the app returns three meal suggestions with descriptions, used ingredients, missing ingredients, cooking time, and difficulty.
 
+[How to Obtain an Anthropic API Key]
+Go to https://console.anthropic.com and create a free account (or sign in if you already have one).
+Once logged in, navigate to API Keys in the left sidebar.
+Click Create Key, give it a name (e.g. "PantryPal"), and copy the key — you won't be able to see it again after closing the dialog.
+(Optional) Set a usage limit under Plans & Billing to avoid unexpected charges.
+New accounts receive free credits to get started. Paid usage is billed per token beyond the free tier.
+
 [Environment Setup] 
-Install the required Python packages: 
+Install the required Python packages by typing this into the command window:
 pip3 install flask anthropic
 
 [Running the No-AI Baseline Version] 
