@@ -1,13 +1,13 @@
-PantryPal MVP Demo Instructions Overview:
+PantryPal MVP Demo Instructions Overview: 
 PantryPal is a web-based meal suggestion app. Users enter ingredients they already have, and the app returns three meal suggestions with descriptions, used ingredients, missing ingredients, cooking time, and difficulty.
 
-Environment Setup
-Install the required Python packages:
+Environment Setup 
+Install the required Python packages: 
 pip3 install flask anthropic
 
-Running the No-AI Baseline Version
-The no-AI baseline does not require an API key.
-If the file is in the main project folder, run:
+Running the No-AI Baseline Version 
+The no-AI baseline does not require an API key. 
+If the file is in the main project folder, run: 
 python3 pantrypal_noai.py
 
 If the file is inside the /mvp/src/ folder, run:
